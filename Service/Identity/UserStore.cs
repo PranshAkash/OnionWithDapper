@@ -223,6 +223,7 @@ namespace Services.Identity
             user.NormalizedUserName = normalizedName;
             return Task.FromResult(0);
 
+
         }
 
         public Task SetPasswordHashAsync(ApplicationUser user, string passwordHash, CancellationToken cancellationToken)
